@@ -13,8 +13,8 @@ const Header = () => {
           <a href="#" className="text-gray-600 hover:text-gray-800">Start a trial</a>
         </nav>
         <div className="hidden md:flex items-center space-x-4">
-          <button className="text-gray-600 hover:text-gray-800 border border-gray-300 px-4 py-2 ">Login</button>
-          <button className="bg-black text-white px-4 py-2 ">Signup</button>
+          <button className="text-gray-600 hover:text-gray-800 border border-gray-300 px-4 py-1 ">Login</button>
+          <button className="bg-black text-white px-4 py-1 ">Signup</button>
         </div>
         </div>
         <div className="md:hidden">

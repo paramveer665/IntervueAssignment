@@ -13,6 +13,19 @@ const Footer = () => {
               <li><a href="#" className="hover:underline">LinkedIn</a></li>
               <li><a href="#" className="hover:underline">Pinterest</a></li>
             </ul>
+            <div className="mt-8">
+              <h3 className="text-l font-bold mb-4">Hire better & faster</h3>
+              <div className="flex">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  className="p-2  focus:outline-none focus:ring-2 focus:ring-amber-200 text-gray-800 flex-grow md:border md:border-b-amber-100 placeholder-amber-50"
+                />
+                <button className=" text-amber-400 text-3xl p-2 rounded-r-md hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                  &#8599;
+                </button>
+              </div>
+            </div>
           </div>
           <div>
             <h3 className="text-l font-bold mb-4">Company</h3>
