@@ -7,25 +7,19 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:hidden">
         <div className="flex flex-col items-center text-center">
           <h3 className="text-2xl font-bold mb-4">intervue</h3>
-          <div className="mt-8 w-full">
-            <h3 className="text-l font-bold mb-4">Hire better & faster</h3>
-            <div className="flex w-full">
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="p-2 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800 flex-grow"
-              />
-              <button className="bg-white text-gray-800 p-2 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
-                &#8599;
-              </button>
+          <div className="mt-8">
+              <h3 className="text-l font-bold mb-4">Hire better & faster</h3>
+              <div className="flex">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  className="p-2  focus:outline-none focus:ring-2 focus:ring-amber-400 text-gray-800 flex-grow border border-b-amber-400 placeholder-amber-50"
+                />
+                <button className=" text-amber-400 text-3xl p-2 rounded-r-md hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                  &#8599;
+                </button>
+              </div>
             </div>
-          </div>
-          <div className="flex space-x-4 mt-8">
-            <a href="#" className="hover:underline">Facebook</a>
-            <a href="#" className="hover:underline">Instagram</a>
-            <a href="#" className="hover:underline">LinkedIn</a>
-            <a href="#" className="hover:underline">Pinterest</a>
-          </div>
           <div className="grid grid-cols-2 gap-8 mt-8 w-full">
             <div>
               <h3 className="text-l font-bold mb-4">Menu</h3>
@@ -53,14 +47,17 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center w-full">
-            <p>&copy; 2023 Intervue.io</p>
+            
+          <div className="flex space-x-4 mt-8 text-4xl gap-8 mb-6">
+            <a href="#" className="hover:underline"><i className="fab fa-facebook-f"></i></a>
+            <a href="#" className="hover:underline"><i className="fab fa-instagram"></i></a>
+            <a href="#" className="hover:underline"><i className="fab fa-linkedin-in"></i></a>
+            <a href="#" className="hover:underline"><i className="fab fa-pinterest"></i></a>
+            <a href="#" className="hover:underline"><i className="fab fa-youtube"></i></a>
+          </div>
+            <p>Copyright &copy; 2023 Intervue.io</p>
             <p>All Rights Reserved</p>
-            <div className="flex space-x-4 mt-4">
-              <a href="#" className="hover:underline">Dateenschutz</a>
-              <a href="#" className="hover:underline">Impressum</a>
-              <a href="#" className="hover:underline">Cookie Policy</a>
-              <a href="#" className="hover:underline">AGBS</a>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -82,9 +79,9 @@ const Footer = () => {
                 <input
                   type="email"
                   placeholder="Enter your email address"
-                  className="p-2 border border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800 flex-grow"
+                  className="p-2  focus:outline-none focus:ring-2 focus:ring-amber-400 text-gray-800 flex-grow border border-b-amber-400 placeholder-amber-50"
                 />
-                <button className="bg-white text-gray-800 p-2 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                <button className=" text-amber-400 text-3xl p-2 rounded-r-md hover:bg-amber-100 focus:outline-none focus:ring-2 focus:ring-blue-500">
                   &#8599;
                 </button>
               </div>
@@ -108,6 +105,22 @@ const Footer = () => {
               <li><a href="#" className="hover:underline">Lift Media</a></li>
               <li><a href="#" className="hover:underline">Offene Stellen</a></li>
               <li><a href="#" className="hover:underline">Presse kit</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-l font-bold mb-4">Product</h3>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:underline">Gratis Termin</a></li>
+              <li><a href="#" className="hover:underline">Freunde einladen</a></li>
+              <li><a href="#" className="hover:underline">Patienteninforma</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-l font-bold mb-4">Product</h3>
+            <ul className="space-y-2 text-sm">
+              <li><a href="#" className="hover:underline">Gratis Termin</a></li>
+              <li><a href="#" className="hover:underline">Freunde einladen</a></li>
+              <li><a href="#" className="hover:underline">Patienteninforma</a></li>
             </ul>
           </div>
         </div>

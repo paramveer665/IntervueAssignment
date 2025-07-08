@@ -40,7 +40,7 @@ const FAQ = () => {
                   onClick={() => toggleFAQ(index)}
                 >
                   <h3 className="text-xl font-bold text-gray-800 ">{faq.question}</h3>
-                  <i className={`fas ${openFAQ === index ? 'fa-minus' : 'fa-plus'} text-gray-600`}></i>
+                  <i className={` hidden fas ${openFAQ === index ? 'fa-minus' : 'fa-plus'}   text-gray-600`}></i>
                 </button>
                 {openFAQ === index && (
                   <p className="mt-2 text-gray-600">{faq.answer}</p>
