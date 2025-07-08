@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <header className="bg-white py-4 md:px-20 shadow-sm">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-gray-800">intervue</div>
+        <div className="text-2xl font-bold text-gray-800"><a href="/"><img src='./src/assets/19.png' alt="" srcset="" /></a></div>
         <div className='flex gap-4'>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#" className="text-gray-600 hover:text-gray-800 flex items-center"><i className="fas fa-user-tie mr-2"></i>Become an Interviewer <i className="fas fa-external-link-alt ml-2 text-xs"></i></a>
@@ -41,8 +41,8 @@ const Header = () => {
             <a href="#" className="text-gray-600 hover:text-gray-800">Start a trial</a>
           </nav>
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-600 hover:text-gray-800 border border-gray-300 px-4 py-1 ">Login</button>
-            <button className="bg-black text-white px-4 py-1 ">Signup</button>
+            <button className="text-gray-600 hover:text-gray-800 cursor-pointer border border-gray-300 px-4 py-1 ">Login</button>
+            <button className="bg-black text-white px-4 py-1  cursor-pointer">Signup</button>
           </div>
         </div>
         <div className="md:hidden cursor-pointer">

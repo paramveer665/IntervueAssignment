@@ -16,9 +16,9 @@ const Resources = () => {
   return (
     <section className="bg-gray-100 py-12 md:px-20">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {resources.map((resource, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+            <div key={index} className="bg-white rounded-lg shadow-md p-6 border   border-gray-200">
               <div className="flex items-center mb-4">
                 <span className={`px-3 py-1 rounded-full text-sm font-semibold ${resource.difficulty === 'Easy' ? 'bg-blue-100 text-blue-800' : resource.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-800' : 'bg-green-100 text-green-800'}`}>
                   {resource.difficulty}
