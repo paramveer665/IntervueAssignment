@@ -1,4 +1,5 @@
 import React from 'react';
+import Twentyone from "../assets/20.png"
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:hidden">
         <div className="flex flex-col items-center text-center">
           
-          <a href='/'><img src="./src/assets/20.png" alt="Intervue" srcset="" /></a>
+          <a href='/' className='w-30'><img src="./src/assets/20.png" alt="Intervue" srcset="" /></a>
           <div className="mt-8 ">
               <h3 className="text-l font-bold mb-4">Hire better & faster</h3>
               <div className="flex">
@@ -67,7 +68,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 hidden md:block">
         <div className="grid grid-cols-1 md:grid-cols-[35%_repeat(4,1fr)] gap-3">
           <div>
-            <a href='/'><img src="./src/assets/20.png" className='w-25 h-10 bg-blend-soft-light' alt="Intervue" srcset="" /></a>
+            <a href='/'><img src={Twentyone} className='w-25 h-10 bg-blend-soft-light' alt="Intervue" srcset="" /></a>
             <ul className="space-y-2 text-sm flex md:grid-cols-5 gap-3 md:mx">
               <li><a href="https://www.facebook.com/intervue.io" className="hover:underline">Facebook</a></li>
               <li><a href="https://www.instagram.com/intervue.io" className="hover:underline">Instagram</a></li>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Twenty from "../assets/19.png"
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,7 +33,7 @@ const Header = () => {
   return (
     <header className="bg-white py-4 md:px-20 shadow-sm">
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-gray-800"><a href="/"><img src='./src/assets/19.png' alt="" srcset="" /></a></div>
+        <div className="text-2xl font-bold text-gray-800"><a href="/"><img src={Twenty} alt="" srcset="" /></a></div>
         <div className='flex gap-4'>
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#" className="text-gray-600 hover:text-gray-800 flex items-center"><i className="fas fa-user-tie mr-2"></i>Become an Interviewer <i className="fas fa-external-link-alt ml-2 text-xs"></i></a>
