@@ -50,11 +50,11 @@ const Footer = () => {
           <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center w-full">
             
           <div className="flex space-x-4 mt-8 text-4xl gap-8 mb-6">
-            <a href="#" className="hover:underline"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="hover:underline"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="hover:underline"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/intervue.io" className="hover:underline"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/intervue.io" className="hover:underline"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/intervue-io/" className="hover:underline"><i className="fab fa-linkedin-in"></i></a>
             <a href="#" className="hover:underline"><i className="fab fa-pinterest"></i></a>
-            <a href="#" className="hover:underline"><i className="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/@intervuehq" className="hover:underline"><i className="fab fa-youtube"></i></a>
           </div>
             <p>Copyright &copy; 2023 Intervue.io</p>
             <p>All Rights Reserved</p>
@@ -69,9 +69,9 @@ const Footer = () => {
           <div>
             <a href='/'><img src="./src/assets/20.png" className='w-25 h-10 bg-blend-soft-light' alt="Intervue" srcset="" /></a>
             <ul className="space-y-2 text-sm flex md:grid-cols-5 gap-3 md:mx">
-              <li><a href="#" className="hover:underline">Facebook</a></li>
-              <li><a href="#" className="hover:underline">Instagram</a></li>
-              <li><a href="#" className="hover:underline">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/intervue.io" className="hover:underline">Facebook</a></li>
+              <li><a href="https://www.instagram.com/intervue.io" className="hover:underline">Instagram</a></li>
+              <li><a href="https://www.linkedin.com/company/intervue-io/" className="hover:underline">LinkedIn</a></li>
               <li><a href="#" className="hover:underline">Pinterest</a></li>
             </ul>
             <div className="mt-8">
