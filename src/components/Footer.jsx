@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:hidden">
         <div className="flex flex-col items-center text-center">
           
-          <a href='/' className='w-30'><img src="./src/assets/20.png" alt="Intervue" srcset="" /></a>
+          <a href='/' className='w-30'><img src={Twentyone} alt="Intervue" srcset="" /></a>
           <div className="mt-8 ">
               <h3 className="text-l font-bold mb-4">Hire better & faster</h3>
               <div className="flex">
