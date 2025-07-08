@@ -2,8 +2,8 @@ import React from 'react';
 
 const Testimonial = () => {
   return (
-    <section className="bg-white py-20 md:flex">
-      <div className="md:w-1/2 flex w-[60%] mb-8 md:mb-0 bg-gray-500 rounded-r-full justify-end">
+    <section className="bg-white py-20 md:flex md:m-12 ">
+      <div className="md:w-1/2 flex  w-[60%] mb-8 md:mb-0 bg-gray-500 rounded-r-full justify-end">
           <img src="https://via.placeholder.com/300" alt="Niket Gupta" className=" w-64 h-64 object-cover" />
         </div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row  ">
